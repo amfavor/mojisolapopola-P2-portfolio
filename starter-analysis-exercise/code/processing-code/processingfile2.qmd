@@ -17,6 +17,7 @@ Load needed packages. make sure they are installed.
 
 ```{r}
 library(readxl) #for loading Excel files
+update.packages("dyplr")
 library(dplyr) #for data processing/cleaning
 library(tidyr) #for data processing/cleaning
 library(skimr) #for nice visualization of data 
